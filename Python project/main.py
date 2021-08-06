@@ -38,7 +38,7 @@ class Mycab:
     def select_current_location(self, currentlocation):
 
         for city in range(len(self.services)):
-            if currentLocation == city:
+            if currentlocation == city:
                 print('Your current Location updated to',self.services[city]+'.')
                 break
             else: 
@@ -50,7 +50,6 @@ class Mycab:
       
       for cities in range (len(self.services)):
           if destination == cities:
-            print("")
             print('Your Destination set to',self.services[cities]+'.')
             break
           elif destination == destination:

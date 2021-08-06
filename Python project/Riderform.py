@@ -14,9 +14,13 @@ class RiderRegistration:
          
 
 if __name__ == "__main__":
+    x = input('Enter name : ')
+    y = input('Enter age: ')
+    z = input('Enter email: ')
+    m = int(input('Enter Mobile NUmber: '))
+    p = input('Create Your Password: ')
 
-
-    rider   = RiderRegistration('Venkat sundeep', 'age', 'email', 'mobile', 'password')
+    rider   = RiderRegistration(x, y, z, m, p)
     create  = int(input('Press 1 to create account: '))
 
     if create == 1:
